@@ -1,7 +1,1 @@
-[link](www.google.com)
-[link2](www.yahoo.com)
-[Link][1]
-.
-.
-.
-[1]:www.google.com
+[Link](https://docs.google.com/document/d/1oEmpjjKUJHLCEYCF9t_CLcSqeisCokhz5id_Vt4EHgI/edit) yes
