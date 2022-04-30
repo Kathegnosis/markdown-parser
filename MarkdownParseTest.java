@@ -87,5 +87,21 @@ public class MarkdownParseTest {
         }
     }
 
+    @Test
+    public void getLinksmixed() throws IOException{
+        try {
+            // getting path
+            Path fileName = Path.of("failingtest2.md");
+
+            String file = Files.readString(fileName);
+
+            ArrayList<String> links = MarkdownParse.getLinks(file); 
+
+            assertEquals(List.of("link"), links);
+        }
+        catch (IOException e){
+            e.printStackTrace();
+        }
+    }
 
 }
