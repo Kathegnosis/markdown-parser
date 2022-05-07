@@ -38,5 +38,4 @@ jobs:
       - name: Run this makefile
         run: |
           make MarkdownParseTest.class
-          make
         
